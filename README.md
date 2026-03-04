@@ -68,3 +68,9 @@ During this project I learned how to:
 - Secure web traffic using HTTPS with Let's Encrypt
 - Configure Security Groups to restrict SSH access to my IP
 - Document infrastructure and architecture for reproducibility
+## Live Website
+
+https://lizzycloudlab.online
+## Cost Management
+
+To avoid unnecessary AWS charges, the EC2 infrastructure used in this project was terminated after successful deployment and validation.
