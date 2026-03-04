@@ -26,3 +26,45 @@ The goal of this project is to practice basic DevOps and cloud engineering skill
 
 ## Expected Outcome
 After deployment, the website should be accessible from a browser using the EC2 public IP address.
+## Architecture
+
+This project was deployed in AWS using a custom VPC network design.
+
+VPC CIDR: 10.0.0.0/16
+
+Subnets created:
+
+- Frontend Subnet: 10.0.0.0/24 (EC2 web server)
+- Backend Subnet: 10.0.1.0/24
+- Database Subnet: 10.0.2.0/24
+
+The EC2 instance hosting the website was deployed in the frontend subnet and accessed through an Internet Gateway.
+
+---
+
+## Project Evidence
+
+### Live Website
+![Website](docs/website.png)
+
+### EC2 Instance Running
+![EC2 Instance](docs/ec2-instance.png)
+
+### SSL Certificate Configuration
+![SSL](docs/ssl-certificate.png)
+
+### AWS Architecture
+![Architecture](docs/architecture-diagram.png)
+
+---
+
+## Lessons Learned
+
+During this project I learned how to:
+
+- Design a VPC with multiple subnets
+- Launch and configure EC2 instances
+- Install and configure Nginx on Ubuntu
+- Secure web traffic using HTTPS with Let's Encrypt
+- Configure Security Groups to restrict SSH access to my IP
+- Document infrastructure and architecture for reproducibility
