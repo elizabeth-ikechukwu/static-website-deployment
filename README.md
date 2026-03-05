@@ -44,21 +44,13 @@ The EC2 instance hosting the website was deployed in the frontend subnet and acc
 
 ## Project Evidence
 
-## Architecture Diagram
+![Architecture Diagram](architecture-diagram.jpg)
 
-![Architecture Diagram](architecture-diagram.png)
+![EC2 Instance](ec2-instance.jpg)
 
-## EC2 Instance
+![SSL Certificate](ssl-certificate.jpg)
 
-![EC2 Instance](ec2-instance.png)
-
-## SSL Certificate
-
-![SSL Certificate](ssl-certificate.png)
-
-## Website
-
-![Website Screenshot](website.png)
+![Website Screenshot](website.jpg)
 
 ---
 
