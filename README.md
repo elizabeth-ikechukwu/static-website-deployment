@@ -26,8 +26,6 @@ The goal of this project is to practice fundamental DevOps and cloud engineering
 
 ## Deployment Steps
 
-## Deployment Steps
-
 1. Launch an EC2 instance in AWS
 
 2. Connect to the server securely using SSH
